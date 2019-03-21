@@ -3,15 +3,19 @@ Goes through a list of canvas courses and returns a report based on given inputs
 
 You must set up your Canvas API Token first:
 
+```js
 canvas.apiToken = "<TOKEN>"
-## Powershell
+```
+``` bash
+# Powershell
 $env:CANVAS_API_TOKEN="<TOKEN>"
 
-## CMD
+# CMD
 set CANVAS_API_TOKEN=<TOKEN>
 
-## Linux & Mac
+# Linux & Mac
 export CANVAS_API_TOKEN="<TOKEN>"
+```
 
 
 run "node bin.js"
