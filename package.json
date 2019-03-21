@@ -1,0 +1,27 @@
+{
+  "name": "canvas-items-report",
+  "version": "1.0.0",
+  "description": "Goes through a list of canvas courses and returns a report based on given inputs. (e.g. how many items/assignments exist after a certain date)",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byuitechops/canvas-items-report.git"
+  },
+  "author": "Levi Stum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byuitechops/canvas-items-report/issues"
+  },
+  "homepage": "https://github.com/byuitechops/canvas-items-report#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "canvas-api-wrapper": "^3.3.5",
+    "fs": "0.0.1-security",
+    "json2csv": "^4.3.5",
+    "moment": "^2.24.0",
+    "prompt": "^1.0.0"
+  }
+}
